@@ -182,6 +182,67 @@ Podem trobar mes informacio de XPath en aquest enllaç:
 ## DOM:
 Permet accedir, modificar i manipular documents HTML o XML utilitzant Python, per allo necesitem importar la seva llibreria amb aquesta linea: "from xml.dom import minidom". Utilitzant DOM en Python podem crear, llegir, actualitzar i eliminar nodes i contingut dins d'un document XML.
 
+Exemple de un document de Python amb DOM:
+```python
+#!/usr/bin/env python3
+from xml.dom import minidom
+
+doc = minidom.parse("fitxer2.xml")
+alumnes = {}
+persona = doc.getElementsByTagName("persona")
+assignaturas = doc.getElementsByTagName("assignatures")
+for etiqueta in persona:
+    alumne = {}
+    asignaturas = []
+    nom = etiqueta.getElementsByTagName("nom")[0].firstChild.data
+    cognom = etiqueta.getElementsByTagName("cognoms")[0].firstChild.data
+    edat = etiqueta.getElementsByTagName("edat")[0].firstChild.data
+    alumne["nom"] = nom
+    alumne["cognom"] = cognom
+    alumne["edat"] = edat
+    asignaturas1 = etiqueta.getElementsByTagName("assignatura")
+    for x in asignaturas1:
+        asignaturas.append(x.firstChild.data)
+    alumne["asignaturas"] = asignaturas
+    alumnes[f"{nom} {cognom}"] = alumne
+
+opcio = "0"
+
+while opcio != "3":
+    print("""
+1. Preguntar asignatura
+2. Veure alumnes
+3. Sortir
+""")
+    opcio = input("Quina opcio vols? ")
+    if opcio == "1":
+        buscar = input("Quina asignatura vols buscar ")
+        for nom_dic, dades in alumnes.items():
+            for x, y in dades.items():
+                if x == "asignaturas":
+                    for z in y:
+                        if buscar == z:
+                            print(f"L'alumne/a {nom_dic} te l'asignatura {buscar}")
+                
+    elif opcio == "2":
+        for nom_dic, dades in alumnes.items():
+            for x, y in dades.items():
+                if x == "nom":
+                    print(f"Nom: {y}")
+                elif x == "cognom":
+                    print(f"Cognom: {y}")
+                elif x == "edat":
+                    print(f"Edat: {y}")
+                elif x == "asignaturas":
+                    print("Asignaturas:")
+                    for z in y:
+                        print(f"  - {z}")
+            print("\n")
+        
+    elif opcio == "3":
+        print("Sortint...")
+```
+
 Podem trobar mes informacio de Dom en aquest enllaç:
 ***[W3Schools DOM](https://www.w3schools.com/xml/dom_intro.asp
 )***
