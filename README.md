@@ -1,10 +1,10 @@
 # Documentacio amb Markdown.
 ## XML:
-L'**XML** es un llenguatge de marques estandard que utilitza etiquetes per representar informació. Els documents XML sempre tenen una etiqueta pare y altres etiquetes filles. L'objectiu principal del xml es aconseguir un document ben format que pugi ser llegit per ordinadors y persones. Aquestos documents requereixen una validesa, que es pot comprovar al navegador. L'xml es poden crear y editar en qualsevol editor de text.
+L'XML es un **llenguatge de marques** estandard que utilitza etiquetes per representar informació. Els documents XML sempre tenen una etiqueta pare y altres etiquetes filles. L'objectiu principal del xml es aconseguir un document ben format que pugi ser llegit per ordinadors y persones. Aquestos documents requereixen una validesa, que es pot comprovar al navegador. L'xml es poden crear y editar en qualsevol editor de text.
 Podem trobar mes informacio de xml en el seguent enllaç: 
 "Insertar enlace"
 
-Aqui tenem un exemple de un xml ben format.
+Aqui tenem un exemple de un xml **ben format**.
 ```xml
 <restaurante>
   <logo>
