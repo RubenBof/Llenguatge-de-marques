@@ -30,3 +30,14 @@ Utilitzan aquestes expresione sobre els nodes podem accedir a dades especifiques
 | .             | Indica el node actual                   |
 | ..            | Indica el pare del node actual         |
 | @             | Indica l'atribut d'un element           |
+
+## DOM:
+Permet accedir, modificar i manipular documents HTML o XML utilitzant Python, per allo necesitem importar la seva llibreria amb aquesta linea: "from xml.dom import minidom". Utilitzant DOM en Python podem crear, llegir, actualitzar i eliminar nodes i contingut dins d'un document XML.
+
+
+
+
+
+
+
+
