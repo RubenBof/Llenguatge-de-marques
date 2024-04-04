@@ -102,7 +102,7 @@ Hi ha 7 tipus de nodes:
 - Comentaris
 - Instuccions de processament
 
-Utilitzan aquestes expresione sobre els nodes podem accedir a dades especifiques:
+Utilitzan aquestes expresions sobre els nodes podem accedir a dades especifiques:
 | Expresio      | Descripció |
 |---------------|------------|
 | Nom del node  | Indica tots els fills del nom del node |
@@ -111,6 +111,64 @@ Utilitzan aquestes expresione sobre els nodes podem accedir a dades especifiques
 | .             | Indica el node actual                   |
 | ..            | Indica el pare del node actual         |
 | @             | Indica l'atribut d'un element           |
+
+Exemples de consultes de XPath sobre aquest document XML:
+```xml
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<botiga>
+	<bluray>
+		<titol idioma="ca">Avatar</titol>
+		<director>J. Cameron</director>
+		<preu>21</preu>
+		<any>2009</any>
+	</bluray>
+	<bluray>
+		<titol idioma="en">Zombieland</titol>
+		<director>R. Fleischer</director>
+		<preu>16</preu>
+		<any>2009</any>
+	</bluray>
+	<bluray>
+		<titol idioma="es">REC</titol>
+		<director>Balaguero, Plaza</director>
+		<preu>13</preu>
+		<any>2007</any>
+	</bluray>
+	<bluray>
+		<titol idioma="ca">REC2</titol>
+		<director>Balaguero, Plaza</director>
+		<preu>17</preu>
+		<any>2009</any>
+	</bluray>
+	<bluray>
+		<titol idioma="en">La herencia</titol>
+		<director>Stephen</director>
+		<preu>17</preu>
+		<any>2010</any>
+	</bluray>
+	<bluray>
+		<titol idioma="ca">Even the Rain</titol>
+		<director>Thomas Edison</director>
+		<preu>11</preu>
+		<any>2005</any>
+	</bluray>
+	<bluray>
+		<titol idioma="en">Black Bread</titol>
+		<director>Vila</director>
+		<preu>7</preu>
+		<any>2010</any>
+	</bluray>
+</botiga>
+```
+Llistat dels títols de totes les pel·lícules de la botiga.
+[image](https://github.com/RubenBof/Llenguatge-de-marques/assets/160047252/477fdced-9adc-41d7-a93c-ce8227fcb401)
+
+Llistat de tots els preus de les pel·lícules de la botiga.
+![image](https://github.com/RubenBof/Llenguatge-de-marques/assets/160047252/fb7b0bda-ddfa-4c3e-8b9e-04fccc940daa)
+
+Preu de les pel·licules dirigides per "J. Cameron"
+![image](https://github.com/RubenBof/Llenguatge-de-marques/assets/160047252/3d746735-de65-4d12-866c-80c0cab6b079)
+
 
 Podem trobar mes informacio de XPath en aquest enllaç:
 ***[W3Schools XPath](https://www.w3schools.com/xml/xpath_intro.asp)***
