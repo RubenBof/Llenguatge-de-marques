@@ -161,13 +161,16 @@ Exemples de consultes de XPath sobre aquest document XML:
 </botiga>
 ```
 Llistat dels títols de totes les pel·lícules de la botiga.
-[image](https://github.com/RubenBof/Llenguatge-de-marques/assets/160047252/477fdced-9adc-41d7-a93c-ce8227fcb401)
+![image](https://github.com/RubenBof/Llenguatge-de-marques/assets/160047252/e41d38b3-652b-4aea-bb8b-64f5674c52ce)
+
 
 Llistat de tots els preus de les pel·lícules de la botiga.
 ![image](https://github.com/RubenBof/Llenguatge-de-marques/assets/160047252/fb7b0bda-ddfa-4c3e-8b9e-04fccc940daa)
 
+
 Preu de les pel·licules dirigides per "J. Cameron"
 ![image](https://github.com/RubenBof/Llenguatge-de-marques/assets/160047252/3d746735-de65-4d12-866c-80c0cab6b079)
+
 
 
 Podem trobar mes informacio de XPath en aquest enllaç:
