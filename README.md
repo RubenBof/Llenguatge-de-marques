@@ -22,7 +22,9 @@ Hi ha 7 tipus de nodes:
 - Instuccions de processament
 
 Utilitzan aquestes expresione sobre els nodes podem accedir a dades especifiques:
-| Nom del node  | Indica tots els fills del nom del node                              |
+| Expresio      | Descripció |
+|---------------|------------|
+| Nom del node  | Indica tots els fills del nom del node |
 | /             | Indica l'element arrel del document     |
 | //            | Indica tots els elements del document  |
 | .             | Indica el node actual                   |
