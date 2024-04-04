@@ -2,7 +2,7 @@
 ## XML:
 L'XML es un **llenguatge de marques** estandard que utilitza etiquetes per representar informació. Els documents XML sempre tenen una etiqueta pare y altres etiquetes filles. L'objectiu principal del xml es aconseguir un document ben format que pugi ser llegit per ordinadors y persones. Aquestos documents requereixen una validesa, que es pot comprovar al navegador. L'xml es poden crear y editar en qualsevol editor de text.
 Podem trobar mes informacio de xml en el seguent enllaç: 
-***[W3Schools](https://www.w3schools.com/xml/xml_whatis.asp)***
+***[W3Schools XML](https://www.w3schools.com/xml/xml_whatis.asp)***
 
 Aqui tenem un exemple de un xml **ben format**.
 ```xml
@@ -85,6 +85,9 @@ Aqui tenem un exemple de un xml **ben format**.
 
 ## XLST:
 XSLT és un llenguatge utilitzat per transformar documents XML en altres formats o estructures com per exemple HTML. Basicament modifica l'estructura del document XML que donem per crear un nou document en el format que volem.
+Podem trobar mes informacio de XSLT en aquest enllaç:
+***[W3Schools XSLT](https://www.w3schools.com/xml/xsl_intro.asp)***
+
 
 ## XPath:
 XPATH s'utilitza per fer consultes sobre nodes especifics d'un XML. 
@@ -107,9 +110,15 @@ Utilitzan aquestes expresione sobre els nodes podem accedir a dades especifiques
 | ..            | Indica el pare del node actual         |
 | @             | Indica l'atribut d'un element           |
 
+Podem trobar mes informacio de XPath en aquest enllaç:
+***[W3Schools XPath](https://www.w3schools.com/xml/xpath_intro.asp)***
+
 ## DOM:
 Permet accedir, modificar i manipular documents HTML o XML utilitzant Python, per allo necesitem importar la seva llibreria amb aquesta linea: "from xml.dom import minidom". Utilitzant DOM en Python podem crear, llegir, actualitzar i eliminar nodes i contingut dins d'un document XML.
 
+Podem trobar mes informacio de Dom en aquest enllaç:
+***[W3Schools DOM](https://www.w3schools.com/xml/dom_intro.asp
+)***
 
 
 
