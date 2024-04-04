@@ -21,12 +21,10 @@ Hi ha 7 tipus de nodes:
 - Comentaris
 - Instuccions de processament
 
-Utilitzan aquestes expresione sobre els nodes podem accedir a dades especifiques.
-|-----------------|-----------------------------------------|
-| Nom del node 	  | Indica tots els fills del nom del node  |
-| / 	      	    | Indica l’element arrel                  |
-| // 		          | Indica tots els elements del document   |
-| . 		          | Indica el node actual                   |   
-| .. 		          | Indica el pare del node                 |
-| @		            | Indica l’atribut                        |
-|-----------------|-----------------------------------------|
+Utilitzan aquestes expresione sobre els nodes podem accedir a dades especifiques:
+| Nom del node  | Indica tots els fills del nom del node                              |
+| /             | Indica l'element arrel del document     |
+| //            | Indica tots els elements del document  |
+| .             | Indica el node actual                   |
+| ..            | Indica el pare del node actual         |
+| @             | Indica l'atribut d'un element           |
