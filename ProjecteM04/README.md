@@ -42,4 +42,27 @@ flask run --debug
 ```
 Si volem aturar el servidor Flask, tenim que fer "Ctrl + C".
 
+## 2 Documentació
+### 2.1 Flask
+Flask es un framework de desenvolupament web en Python. Es ideal per fer aplicacions web lleugeres molt sencillament. Esta disenyat de manera molt minimalista, de manera que es molt lleuger i flexible. A mes, tambe te un munt d'extensions que agregen moltes funcionalitats.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Per a mes informacio revisar [documentació adicional de Flask](https://flask.palletsprojects.com/en/3.0.x/)
