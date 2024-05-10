@@ -10,3 +10,14 @@ python -m venv .venv
 .venv\Scripts\activate
 ```
 Per a Windows.
+Per sortir de l'entorn farem:
+```bash
+deactivate
+```
+
+
+Un cop dins de l'entorn tenim que instalar flask i feedparser, ho farem amb les seguents comandes:
+```bash
+pip install flask
+pip install feedparser
+```
