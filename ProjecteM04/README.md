@@ -8,7 +8,7 @@
   * 2.2 Jinja
   * 2.3 RSS
   * 2.4 Feedparser
-* 3. Com funcionen els modes remot y local.
+* 3 Com funcionen els modes remot y local.
   * 3.1 Remot
   * 3.2 Local
 
