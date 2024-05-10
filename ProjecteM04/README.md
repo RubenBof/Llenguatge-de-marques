@@ -16,18 +16,14 @@ Per sortir de l'entorn farem:
 deactivate
 ```
 
-
-
-
-
-
-
-
-
-
-
 Un cop dins de l'entorn tenim que instalar flask i feedparser, ho farem amb les seguents comandes:
 ```bash
 pip install flask
 pip install feedparser
 ```
+Despres,dins de l'aplicatiu executarem les seguents comandes per iniciar el servidor Flask:
+```bash
+flask run --debug
+```
+Si volem aturar el servidor Flask, tenim que fer "Ctrl + C".
+[Documentació adicional de Flask](https://flask.palletsprojects.com/en/3.0.x/)
