@@ -27,4 +27,4 @@ flask run --debug
 ```
 Si volem aturar el servidor Flask, tenim que fer "Ctrl + C".
 
-Per a mes informacio revisar [Documentació adicional de Flask](https://flask.palletsprojects.com/en/3.0.x/)
+Per a mes informacio revisar [documentació adicional de Flask](https://flask.palletsprojects.com/en/3.0.x/)
