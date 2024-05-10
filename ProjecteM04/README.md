@@ -45,24 +45,27 @@ Si volem aturar el servidor Flask, tenim que fer "Ctrl + C".
 ## 2 Documentació
 ### 2.1 Flask
 Flask es un framework de desenvolupament web en Python. Es ideal per fer aplicacions web lleugeres molt sencillament. Esta disenyat de manera molt minimalista, de manera que es molt lleuger i flexible. A mes, tambe te un munt d'extensions que agregen moltes funcionalitats.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Per a mes informacio revisar [documentació adicional de Flask](https://flask.palletsprojects.com/en/3.0.x/)
+
+
+### 2.2 Jinja
+Jinja es el motor de plantilles que utilitzem a flask. Serveix per a generar HTML i XML de manera dinamica. Tambe ofereix diverses estructures de control i iteració, com ara bucles for i condicionals if, que ens permeten manipular les dades i la presentació de manera flexible dins de les plantilles.
+Per a mes informacio revisar [documentació adicional de Jinja](https://jinja.palletsprojects.com/en/3.1.x/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
