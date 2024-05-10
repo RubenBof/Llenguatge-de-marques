@@ -26,4 +26,5 @@ Despres,dins de l'aplicatiu executarem les seguents comandes per iniciar el serv
 flask run --debug
 ```
 Si volem aturar el servidor Flask, tenim que fer "Ctrl + C".
-[Documentació adicional de Flask](https://flask.palletsprojects.com/en/3.0.x/)
+
+Per a mes informacio revisar [Documentació adicional de Flask](https://flask.palletsprojects.com/en/3.0.x/)
