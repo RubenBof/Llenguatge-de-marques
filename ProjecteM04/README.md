@@ -1,6 +1,16 @@
 # Projecte M04
 ### Rubén Rodríguez Bayón
 
+## Index
+* 1 Instruccions per desplegar l'aplictiu.
+* 2 Documentació
+  * 2.1 Flask
+  * 2.2 Jinja
+  * 2.3 RSS
+  * 2.4 Feedparser
+* 3. Com funcionen els modes remot y local.
+  * 3.1 Remot
+  * 3.2 Local
 
 
 ## 1. Instruccions per desplegar l'aplictiu.
