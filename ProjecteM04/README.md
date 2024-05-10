@@ -17,6 +17,15 @@ deactivate
 ```
 
 
+
+
+
+
+
+
+
+
+
 Un cop dins de l'entorn tenim que instalar flask i feedparser, ho farem amb les seguents comandes:
 ```bash
 pip install flask
