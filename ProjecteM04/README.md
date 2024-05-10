@@ -10,6 +10,7 @@ python -m venv .venv
 .venv\Scripts\activate
 ```
 Per a Windows.
+
 Per sortir de l'entorn farem:
 ```bash
 deactivate
