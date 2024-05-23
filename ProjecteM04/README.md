@@ -46,4 +46,15 @@ Per a mes informacio revisar [documentació adicional de Flask](https://flask.pa
 Jinja es el motor de plantilles que utilitzem a flask. Serveix per a generar HTML i XML de manera dinamica. Tambe ofereix diverses estructures de control i iteració, com ara bucles for i condicionals if, que ens permeten manipular les dades i la presentació de manera flexible dins de les plantilles.
 Per a mes informacio revisar [documentació adicional de Jinja](https://jinja.palletsprojects.com/en/3.1.x/)
 
+### 2.3 RSS
+RSS (Really Simple Syndication) és un format per a distribuir contingut actualitzat freqüentment a través d'internet. Permet als usuaris i aplicacions rebre actualitzacions de llocs web en un format estàndard, de manera que es poden agregar i llegir fàcilment des d'un sol lloc. És molt útil per seguir blogs, notícies i altres fonts d'informació en línia. Per a més informació revisar [documentació adicional de RSS.](https://www.rssboard.org/)
 
+
+### 2.4 Feedparser
+Feedparser és una llibreria en Python que s'utilitza per a analitzar fluxos RSS i Atom. Aquesta eina converteix els fluxos en estructures de dades Python que són fàcils de manejar, permetent l'extracció i la manipulació de la informació de manera senzilla. Per a més informació revisar [documentació adicional de Feedparser.](https://pythonhosted.org/feedparser/)
+
+
+## 3 Com funcionen els modes remot y local.
+### 3.1 Remot
+
+### 3.2 Local
