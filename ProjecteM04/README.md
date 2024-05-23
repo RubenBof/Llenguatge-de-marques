@@ -8,8 +8,8 @@
   * 2.3 RSS
   * 2.4 Feedparser
 * 3 Com funcionen els modes remot y local.
-  * 3.1 Remot
-  * 3.2 Local
+  * 3.1 Local
+  * 3.2 Remot
 ## 1. Instruccions per desplegar l'aplictiu.
 El pirmer que tenim que fer es executar les seguents instruuccions:
 ```bash
@@ -55,6 +55,8 @@ Feedparser és una llibreria en Python que s'utilitza per a analitzar fluxos RSS
 
 
 ## 3 Com funcionen els modes remot y local.
-### 3.1 Remot
+### 3.1 Local
+En el rss local, los archivos se guardan en el propio servidor local.
+### 3.2 Remot
+En cambio, con el rss remoto, los archivos se obtienen de servidores externos.
 
-### 3.2 Local
